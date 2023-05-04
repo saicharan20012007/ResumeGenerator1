@@ -1,0 +1,177 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.bg-container{
+  display: flex;
+  flex-direction: row;
+  
+  min-height:100vh;
+
+
+  
+}
+.template-image{
+  width:40vw;
+}
+
+.pdf-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.temp-image{
+  min-height:100vh;
+  width:40vw;
+  
+}
+
+.form-container{
+  min-height: 500px;
+  width: 60%;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.main-img-tag{
+  text-align: center;
+    color: #183b56;
+    letter-spacing: -1px;
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-family: sofia-pro,sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    padding-top: 30px;
+}
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 16px;
+  color: #475569;
+  padding-top:25px;
+  margin-top:20px;
+  padding-left:5px;
+}
+
+.username-input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+  width:80%;
+  border-radius:7px;
+
+}
+.add-btn{
+display: inline-block;
+outline: 0;
+
+border: 0;
+cursor: pointer;
+will-change: box-shadow,transform;
+background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+padding: 0 32px;
+margin:20px;
+border-radius: 6px;
+color: #fff;
+height: 40px;
+margin-left:0px;
+font-size: 18px;
+text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+transition: box-shadow 0.15s ease,transform 0.15s ease;
+:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+}
+:active{
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
+}
+}
+
+.download_btn {
+  padding: 10px 40px 10px 10px;
+  font-size: 16px;
+  background-color: #0f62fe;
+  color: #fff;
+  border: 1px solid #0000;
+  cursor: pointer;
+  margin:30px;
+  border-radius: 5px;
+  width:250px;
+  color:white;
+  text-decoration: none;
+}
+.download_btn:hover {
+background-color: #0353e9;
+color:white;
+text-decoration: none;
+}
+.download_btn > i {
+margin-right:5px;
+color:white;
+text-decoration: none;
+}
+
+.download_link{
+  color:white;
+  text-decoration: none;
+}
+
+.pdf-container{
+  display:flex;
+}
+.left-view{
+  width:30%;
+  background-color: #F8EFE4;
+}
